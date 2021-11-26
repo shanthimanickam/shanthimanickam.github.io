@@ -12,7 +12,7 @@ var collection = [
         "title": "Cosmos",
         "url": "IMG_5500.jpg",
         "framed": false,
-        "surface": "tile",
+        "surface": "wood",
         "gallery-wrap": false,
         "size": "6x6",
         "medium": "acrylic"
@@ -174,7 +174,7 @@ var collection = [
         "title": "Mandevilla",
         "url": "IMG_5562.jpg",
         "framed": false,
-        "surface": "tile",
+        "surface": "wood",
         "gallery-wrap": false,
         "size": "6x6",
         "medium": "acrylic"
@@ -219,7 +219,7 @@ var collection = [
         "title": "Snow-covered Branches",
         "url": "IMG_7966.jpg",
         "framed": true,
-        "surface": "tile",
+        "surface": "wood",
         "gallery-wrap": false,
         "size": "6x6",
         "medium": "acrylic"
@@ -237,7 +237,7 @@ var collection = [
         "title": "Seagull",
         "url": "IMG_2060.jpg",
         "framed": true,
-        "surface": "tile",
+        "surface": "wood",
         "gallery-wrap": false,
         "size": "6x6",
         "medium": "acrylic"
@@ -575,7 +575,7 @@ var prices = { /* framed, size, then gallery-wrap */
 /*add any new painting size, and the below js will add a new category. */
 
 var gray = "rgb(71, 65, 65)";
-var white2 = "rgb(213, 233, 232)";
+var white2 = "rgb(238, 213, 199)";
 var white = "white";
 var black = "black";
 
@@ -778,21 +778,21 @@ function redraw() {
     })
 
     if (sizeDisplayArr.length == 0) {
-        var siAlertTxt = document.createTextNode("Sizing (no filters applied):");
+        var siAlertTxt = document.createTextNode("Sizing (showing all):");
     } else {
         var siAlertTxt = document.createTextNode("Sizing:");
     }
     siAlert.appendChild(siAlertTxt);
 
     if (surfaceDisplayArr.length == 0) {
-        var suAlertTxt = document.createTextNode("Surface (no filters applied):");
+        var suAlertTxt = document.createTextNode("Surface (showing all):");
     } else {
         var suAlertTxt = document.createTextNode("Surface:");
     }
     suAlert.appendChild(suAlertTxt);
 
     if (frameDisplayId == "both") {
-        var fAlertTxt = document.createTextNode("Framing (no filters applied):");
+        var fAlertTxt = document.createTextNode("Framing (showing all):");
     } else {
         var fAlertTxt = document.createTextNode("Framing:");
     }
