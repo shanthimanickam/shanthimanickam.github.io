@@ -22,6 +22,14 @@ p {
     margin:auto;
     margin-top: 1em;
     margin-right: 0;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: black;
+}
+
+#logo:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 #sizingAlert, #framingAlert, #surfacingAlert {
