@@ -284,7 +284,7 @@ var collection = [
         "framed": true,
         "surface": "wood",
         "gallery-wrap": false,
-        "size": "8x10",
+        "size": "9x12",
         "medium": "acrylic"
     },
     {
@@ -311,7 +311,7 @@ var collection = [
         "framed": true,
         "surface": "wood",
         "gallery-wrap": false,
-        "size": "11x14",
+        "size": "9x12",
         "medium": "acrylic"
     },
     {
