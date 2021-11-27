@@ -99,6 +99,24 @@ var collection = [
         "medium": "acrylic"
     },
     {
+        "title": "Red Rose",
+        "url": "IMG_8156.jpg",
+        "framed": false,
+        "surface": "canvas",
+        "gallery-wrap": false,
+        "size": "8x10",
+        "medium": "acrylic"
+    },
+    {
+        "title": "Rose Bud",
+        "url": "IMG_8157.jpg",
+        "framed": false,
+        "surface": "canvas",
+        "gallery-wrap": false,
+        "size": "8x10",
+        "medium": "acrylic"
+    },
+    {
         "title": "Frog and Thingies",
         "url": "IMG_7016.jpg",
         "framed": false,
@@ -366,6 +384,15 @@ var collection = [
         "surface": "wood",
         "gallery-wrap": false,
         "size": "11x14",
+        "medium": "acrylic"
+    },
+    {
+        "title": "Pond",
+        "url": "IMG_8155.jpg",
+        "framed": true,
+        "surface": "wood",
+        "gallery-wrap": false,
+        "size": "16x20",
         "medium": "acrylic"
     },
     {
