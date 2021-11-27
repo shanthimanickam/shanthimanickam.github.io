@@ -711,10 +711,10 @@ function imgClick(title, url, framed, surface, galleryWrap, size, medium, artPri
     document.getElementById("popupDESC").removeChild(x);
 
     if (title != "undefined") {
-        var intext = document.createTextNode(title + " |");
+        var intext = document.createTextNode(title);
         document.getElementById("popupTITLE").appendChild(intext);
     } else {
-        var intext = document.createTextNode("untitled |");
+        var intext = document.createTextNode("untitled");
         document.getElementById("popupTITLE").appendChild(intext);
     }
 
